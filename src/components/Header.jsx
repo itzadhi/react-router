@@ -11,7 +11,7 @@ function Header() {
         console.log(e.target);
       }}
     >
-      <Container className='px-3 justify-content-center'>
+      <Container>
         <Navbar.Brand as={Link} to={'/'}>
           {'<Dev />'}
         </Navbar.Brand>
