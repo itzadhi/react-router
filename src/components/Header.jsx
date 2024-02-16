@@ -4,13 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <Navbar
-      expand='lg'
-      className='bg-body-tertiary custom-navbar'
-      onClick={(e) => {
-        console.log(e.target);
-      }}
-    >
+    <Navbar expand='lg' className='bg-body-tertiary custom-navbar'>
       <Container>
         <Navbar.Brand as={Link} to={'/'}>
           {'<Dev />'}
