@@ -18,7 +18,11 @@ function Header() {
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='justify-content-center' style={{ width: '100%' }}>
-            <Nav.Link as={NavLink} to={`/`} className='custom-navbar-border'>
+            <Nav.Link
+              as={NavLink}
+              to={`/`}
+              className='px-4 custom-navbar-border'
+            >
               All
             </Nav.Link>
             <Nav.Link
